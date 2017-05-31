@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.7.0" client="site" method="upgrade">
+	<name>Basic Popup</name>
+	<author>Ansgar Z</author>
+	<version>1.0.0</version>
+	<license>MIT License</license>
+	<description>This module shows a popup containing an image or alternatively custom text</description>
+
+	<files>
+		<filename>mod_basic_popup.xml</filename>
+		<filename module="mod_basic_popup">mod_basic_popup.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<media folder="media" destination="mod_basic_popup">
+            <folder>css</folder>
+            <folder>js</folder>
+    </media>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="popup-image" type="media" directory="" label="Popup image" />
+				<field name="popup-content" type="editor" label="Alternative html content"
+					description="Content for the popup" filter="raw" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
