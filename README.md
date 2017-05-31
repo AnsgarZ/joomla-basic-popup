@@ -6,6 +6,7 @@ Some aspects:
 * The popup closes after a mouse click or otherwise automatically after some sec
 * The popup only shows once per session (to avoid annoyed users by too much popping up)
 * The popup makes use of jQuery functions
+* Tested with Joomla 3.7
 
 
 Installation:
