@@ -1,5 +1,5 @@
 # joomla-basic-popup
-A Joomla module to show a popup containing an image or custom text
+A Joomla module to show a basic simple popup containing an image or custom text
 
 
 Some aspects:
@@ -17,7 +17,7 @@ Installation:
 * Choose "Extensions > Modules", click "New", then choose the "Basic Popup" module
 * Complete the following:
   * Enter a title (e.g. "Popup")
-  * Choose a Popup image - or alternatively enter html content -
-  * Set “Show title” to "Hide"
+  * Choose a Popup image (or alternatively enter html content)
+  * Set "Show title" to "Hide"
   * Select an appropriate "Position" (most of the positions should be possible that are used by your template)
 * Click "Save"
